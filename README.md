@@ -8,8 +8,8 @@
 5: We initially chose to use GET Users/search for our API, because it seems like something we could implement effectively in our group project.  With this API, we can make a page that will display the group Twitter account’s tweets and all tweets that reference it. But we switched to using Twittercounter instead since this API can show the user statistics of followers and tweets without going through the Twitter 0auth.
 http://twittercounter.com/pages/api
 
- 6: One issue that we have run into is acquiring the authentication for using the API to begin with.  More issues may take place if Twitter updates their API or their code, in which case our use of the API may become obsolete, rendering it completely useless.
+6: One issue that we have run into is acquiring the authentication for using the API to begin with.  More issues may take place if Twitter updates their API or their code, in which case our use of the API may become obsolete, rendering it completely useless.
 
- 7: The experience was a difficult one, getting the twitter authentication up and running was something that took us a while to accomplish.  Then we ran into problems trying to use JSON to create the proper format to output from Twittercounter.  However, when we have it working in the future, I believe that this API could prove very useful for displaying the information that users will need to create and manage a community Twitter account.
+7: The experience was a difficult one, getting the twitter authentication up and running was something that took us a while to accomplish.  Then we ran into problems trying to use JSON to create the proper format to output from Twittercounter.  However, when we have it working in the future, I believe that this API could prove very useful for displaying the information that users will need to create and manage a community Twitter account.
 
- Later on, we will be able to add functionality that will submit a tweet that has been voted on by users.
+8: Later on, we will be able to add functionality that will submit a tweet that has been voted on by users as well as displaying tweets to and from the group.
